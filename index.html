@@ -193,14 +193,16 @@ em.gold{font-style:italic;color:var(--gold)}
 .arch figcaption{display:flex;gap:9px;align-items:baseline;margin-top:16px;font:italic 500 13.5px var(--serif);color:var(--muted)}
 .arch figcaption::before{content:"";width:18px;height:1.5px;background:var(--gold);flex:none;align-self:center}
 .seal{position:absolute;left:-32px;bottom:48px;width:112px;height:112px;background:var(--card);border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;box-shadow:0 16px 34px -14px rgba(47,36,61,.35)}
-.seal-svg{position:absolute;inset:5px;animation:spin 18s linear infinite}
+/* .seal-svg{position:absolute;inset:5px;animation:spin 18s linear infinite} */
+.seal-svg{position:absolute;inset:5px;animation:spin 30s linear infinite}
 .seal-svg text{font:600 9px var(--sans);letter-spacing:1.5px;fill:var(--gold)}
 .seal svg:not(.seal-svg){width:22px;height:22px;color:var(--ink)}
 @keyframes spin{to{transform:rotate(360deg)}}
 
 /* Ticker */
 .tick{background:var(--ink);overflow:hidden;padding:15px 0}
-.tick-track{display:flex;width:max-content;animation:tickmove 32s linear infinite}
+/* .tick-track{display:flex;width:max-content;animation:tickmove 32s linear infinite} */
+.tick-track{display:flex;width:max-content;animation:tickmove 60s linear infinite}
 .tick:hover .tick-track{animation-play-state:paused}
 .tick-seq{display:flex;align-items:center}
 .tick-seq span{font:italic 500 20px var(--serif);color:var(--lav);white-space:nowrap}
