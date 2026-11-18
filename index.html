@@ -577,9 +577,13 @@ footer h4{font:600 17px var(--serif);color:#fff;margin-bottom:18px}
   .stats>div{border-left:0;padding-left:0;border-top:1px solid var(--line-soft)}
   .stats>div:first-child{border-top:0}
 }
-@media(prefers-reduced-motion:reduce){
+/* @media(prefers-reduced-motion:reduce){
   *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
   .reveal{opacity:1;transform:none}
+} */
+@media(max-width:860px){
+  .seal-svg{animation-duration:36s}
+  .tick-track{animation-duration:70s}
 }
 </style>
 </head>
